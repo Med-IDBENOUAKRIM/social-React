@@ -1,0 +1,64 @@
+.trend {
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 8px 8px 8px;
+    margin-top: 1.22rem;
+    margin-right: 0.75rem;
+}
+
+.trend a {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 100%;
+}
+
+.trend h3 {
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: none;
+    padding: 8px 0;
+}
+
+.trend li {
+    display: flex;
+    list-style-type: none;
+}
+
+.trend__container {
+    display: flex;
+    background-color: rgb(88, 88, 88);
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 5px;
+    width: 100%;
+    position: relative;
+}
+
+.trend img {
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.more p {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.more span {
+    font-family: sans-serif;
+    margin-left: 15px;
+    font-size: large;
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,74 @@
+.comment__card {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment__card__container {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    border: 1px solid lightgray;
+    padding: 15px 10px;
+    margin-top: 2%;
+    margin-bottom: -8px;
+    border-radius: 15px 15px 15px 0px;
+    background-color: whitesmoke;
+    width: 103%;
+}
+
+.owner {
+    background-color: rgb(155, 155, 155);
+    border: none;
+    border-radius: 15px 15px 0px 15px;
+}
+
+
+.comment__card__left img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.comment__card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+    font-family: sans-serif;
+    margin-left: 18px;
+    color: black;
+}
+
+.comment__card__right {
+    position: relative;
+}
+
+.comment__card__right p {
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-size: medium;
+    margin-left: 0.95rem;
+    color: black;
+}
+
+.form {
+    width: 105%;
+}
+
+.form button {
+    background-color: gray;
+}
+
+.input {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 18px 17px;
+}

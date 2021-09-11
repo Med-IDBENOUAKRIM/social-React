@@ -1,0 +1,113 @@
+.nav {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    padding: 18px 0px;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav__sideBar {
+    width: 3rem;
+    height: 2.5rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 2rem;
+    cursor: pointer;
+    background: transparent;
+}
+
+.nav__sideBar span {
+    display: block;
+    width: 3rem;
+    height: 2.5px;
+    background: white;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.nav__links > nav {
+    position: absolute;
+    right: 0px;
+    color: white;
+} 
+
+.nav__title {
+    font-size: 25px;
+    font-weight: normal;
+    margin-left: 15px;
+}
+
+.nav__title a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav__side__bar { 
+    height: 100%;
+}
+
+
+@media (min-width: 768px) and (max-width: 1545px) {
+    .nav__sideBar {
+        display: none;
+    }
+
+    .nav__bar__nav {
+        display: block;
+    }
+}
+
+@media (min-width: 240px) and (max-width: 768px) {
+    .nav__sideBar {
+        width: 3rem;
+        height: 2.5rem;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 2rem;
+        cursor: pointer;
+        background: transparent;
+    }
+
+    
+    .nav__side__bar {
+        display: flex;
+        flex-direction: column-reverse;        
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav__sideBar span {
+        display: block;
+        width: 3rem;
+        height: 2.5px;
+        background: white;
+    }
+    .nav__bar__nav {
+        display: none;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .nav {
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        padding: 18px 0px;
+        border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+}

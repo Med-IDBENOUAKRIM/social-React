@@ -1,0 +1,1 @@
+export const URL__API = "http://localhost:5500/api";

@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import FormAuth from "./components/Auth/FormAuth";
+import Home from "./components/Home/Home";
+import Nav from "./components/NavBar/Nav";
+import Profil from "./components/Profil/Profil";
+import PrivateComponent from "./PrivateComponents/PrivateComponent";
+import ProfileComponentPrivate from "./PrivateComponents/ProfileComponentPrivate";
+import Trending from "./components/Trending/Trending";
 
-function App() {
+
+function App({history}) {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Nav />
+      <Switch>
+          <Route exact path='/'  component={Home} />
+          <PrivateComponent exact path="/auth"  component={FormAuth} />
+          <ProfileComponentPrivate exact path="/profil"  component={Profil} />
+          <ProfileComponentPrivate exact path="/trending"  component={Trending} />
+      </Switch>
+    </Router>
   );
 }
 

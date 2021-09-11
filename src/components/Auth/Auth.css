@@ -1,0 +1,56 @@
+.container {
+    border: gray 1px solid;
+    min-width: 350px;
+    width: 50%;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 20px;
+}
+
+.container ul {
+    display: flex;
+    border-top: solid 1px lightgray;
+    margin-top: 2rem;
+}
+
+.container ul li {
+    cursor: pointer;
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    width: 25%;
+    padding: 13px 0;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+    font-weight: 300;
+}
+
+.container ul li:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+
+@media (min-width: 768px) and (max-width: 1435px) {
+    .container ul li {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 325px;
+    }
+    
+    .container ul li {
+        width: 155px;
+        margin: 1rem auto 0 auto;
+    }
+}

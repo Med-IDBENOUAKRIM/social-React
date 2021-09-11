@@ -1,0 +1,48 @@
+.unfollow__handle {
+    display: block;
+    padding: 1.5px 2px;
+}
+
+.follow__handle {
+    display: block;
+    padding: 1.5px 2px;
+}
+
+.unfollow__btn {
+    color: red;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.follow__btn {
+    color: green;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.icon__add__plus {
+    color: black;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0;
+    font-size: medium !important;
+    color: whitesmoke;
+}
+
+.icon__add {
+    color: black;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0;
+    font-size: medium !important;
+}

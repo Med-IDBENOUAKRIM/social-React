@@ -1,0 +1,51 @@
+.fa__edit {
+    position: absolute;
+    right: 25px;
+    cursor: pointer;
+    bottom: 1px;
+}
+
+
+
+.fa__delete:hover, .fa__edit:hover {
+    color: rgb(82, 82, 82);
+}
+
+.fa__delete {
+    position: absolute;
+    right: 62px;
+    cursor: pointer;
+    bottom: 1px;
+}
+
+.input__comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit__comment__form input {
+    border: none;
+    outline: none;
+    margin-left: 15px;
+    padding: 8px 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.edit__comment__form button {
+    border: none;
+    outline: none;
+    margin-left: 15px;
+    padding: 8px 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit__comment__form button:hover{
+    background-color: lightgray;
+}
+
+.edit__comment__form span {
+    cursor: pointer;
+}
